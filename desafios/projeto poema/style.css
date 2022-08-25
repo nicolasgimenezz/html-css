@@ -1,5 +1,116 @@
 @charset "UTF-8";   
 
-body {
-    text-align: justify;
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=PT+Sans&family=Source+Serif+Pro&display=swap');
+
+
+:root {
+
+    --font-destaque: 'Source Serif Pro', cursive;
+    --cor0: #022340;
+    --cor1: #031626;
+    --cor2: #03588C;
+    --cor3: #0388A6;
+    --cor4: #99E9F2;
 }
+
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: #151618;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-family: var(--font-destaque);
+    font-size: 4em;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;    
+    line-height: 2em;
+    font-size: 1.5em;
+    /*font-size: 30px;/*
+    /* 'vw' Significa: viewport width*/
+    
+}
+
+section.normal {
+    background-color: #fff;
+    color: black;
+}
+
+section.imagem {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);
+    background-attachment: fixed;
+}
+
+
+
+section > p {
+    padding-bottom: 1.5em;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.144);
+    
+}
+
+section#img01 {
+    background-image: url(imagens/backgroun001.jpg) ;
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
+
+
+footer {
+    background-color: #151618;
+    color: white;   
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    
+    font-family: var(--font-destaque);
+    text-align: justify;
+    color: white
+}
+
