@@ -57,6 +57,7 @@ section {
     padding-bottom: 10vh;    
     line-height: 2em;
     font-size: 1.5em;
+    
     /*font-size: 30px;/*
     /* 'vw' Significa: viewport width*/
     
@@ -66,6 +67,12 @@ section.normal {
     background-color: #fff;
     color: black;
 }
+
+section.normal > p {
+    display: inline-block;
+    width: 70%;
+}
+
 
 section.imagem {
     background-color: black;
@@ -83,7 +90,7 @@ section > p {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    width: 50%;
+    width: 70%;
     background-color: rgba(0, 0, 0, 0.144);
     
     
