@@ -83,7 +83,10 @@ section > p {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.144);
+    
+    
     
 }
 
@@ -96,6 +99,7 @@ section#img01 {
 section#img02 {
     background-image: url(imagens/background002.jpg);
     background-size: cover;
+    
 }
 
 
