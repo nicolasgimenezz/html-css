@@ -19,7 +19,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+    
 }
+
+
 
 body {
     font-family: var(--font-destaque);
